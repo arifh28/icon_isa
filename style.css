@@ -89,4 +89,9 @@ i {
 .isa-kufi-na:before {
 	content: "\e915";
 }
-
+.marquee, .marquee2 {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #ccc;
+}
