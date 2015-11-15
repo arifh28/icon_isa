@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'IMM-Setengah-Abad';
+	src:url('fonts/IMM-Setengah-Abad.eot?612ykt');
+	src:url('fonts/IMM-Setengah-Abad.eot?612ykt#iefix') format('embedded-opentype'),
+		url('fonts/IMM-Setengah-Abad.ttf?612ykt') format('truetype'),
+		url('fonts/IMM-Setengah-Abad.woff?612ykt') format('woff'),
+		url('fonts/IMM-Setengah-Abad.svg?612ykt#IMM-Setengah-Abad') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i {
+	font-family: 'IMM-Setengah-Abad';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.isa-isa:before {
+	content: "\e900";
+}
+.isa-immawati1:before {
+	content: "\e901";
+}
+.isa-immawan1:before {
+	content: "\e902";
+}
+.isa-wanwati:before {
+	content: "\e903";
+}
+.isa-immawati:before {
+	content: "\e904";
+}
+.isa-immawan:before {
+	content: "\e905";
+}
+.isa-strugle:before {
+	content: "\e906";
+}
+.isa-wallmuh:before {
+	content: "\e907";
+}
+.isa-ipm:before {
+	content: "\e908";
+}
+.isa-pemuda:before {
+	content: "\e909";
+}
+.isa-tspm:before {
+	content: "\e90a";
+}
+.isa-aisyiyah:before {
+	content: "\e90b";
+}
+.isa-muhammadiyah:before {
+	content: "\e90c";
+}
+.isa-lazismu:before {
+	content: "\e90d";
+}
+.isa-hw:before {
+	content: "\e90e";
+}
+.isa-na:before {
+	content: "\e90f";
+}
+.isa-muktamar47:before {
+	content: "\e910";
+}
+.isa-mentari-news:before {
+	content: "\e911";
+}
+.isa-sang-pencerah:before {
+	content: "\e912";
+}
+.isa-kufi-ipm:before {
+	content: "\e913";
+}
+.isa-kufi-imm:before {
+	content: "\e914";
+}
+.isa-kufi-na:before {
+	content: "\e915";
+}
+
