@@ -116,14 +116,29 @@ header {
 
 .dakwah i {
     font-size: 300px;
-    color: #f00;
+    color: green;
+}
+
+.dakwah h2 {
+    font-family: Puritan, Tahoma, Arial;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: bold ;
 }
 
 .dakwah h4 {
+    font-family: Puritan, Tahoma, Arial;
     padding-top: 40px;
     line-height: 30px;
 }
 
 .dakwah p {
+    font-family: Puritan, Tahoma, Arial;
     font-style: italic;
+}
+
+.berkemajuan h3 {
+    font-family: Puritan, Tahoma, Arial;
+    line-height: 30px;
+    word-wrap: break-word;
 }
