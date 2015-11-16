@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Puritan:300italic,300,400,600,700);
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: Puritan, Tahoma, Arial;
+}
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    top: 130px;
+    position: absolute;
+    z-index: 1;
+}
+
+.marquee2 {
+    width: 100%;
+    overflow: hidden;
+    top: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.marquee i, .marquee2 i {
+    font-size: 50px;
+    color: #780000;
+}
+
+.navbar {
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom: none !important;
+}
+
+.navbar-inverse {
+    background-color: #c60000 !important;
+}
+
+.navbar-header a {
+    color: #000000 !important;
+}
+
+.social-icon {
+    padding: 10px 10px;
+    list-style: none;
+}
+.social-icon > li {
+    display: inline-block;
+}
+
+.social-icon i {
+    font-size: 18px;
+    color: #004444;
+    padding: 5px;
+}
+
+.social-icon > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "";
+}
+.fa-facebook:hover {
+    padding: 5px;
+    background: #0083C9;
+}
+
+.fa-twitter:hover  {
+    padding: 5px;
+    background:#5BBCEC;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #780000 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #000 !important;
+    margin-bottom: 2px;
+    border-bottom: solid #a20000 6px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #000 !important;
+    background-color: #a20000 !important;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+.col-marquee {
+    width: 100%;
+    height: 300px;
+    background-color: #a20000;
+}
+
+.title {
+    position: absolute;
+    z-index: 90;
+    padding: 0 150px 0 150px;
+    top: 130px;
+    color: #000000;
+    text-align: center;
+    font-family: Puritan, Tahoma, Arial;
+}
+.dakwah {
+    padding: 0;
+    margin: 20px 0 20px 0;
+    height: auto;
+}
+
+.dakwah i {
+    font-size: 300px;
+    color: #f00;
+}
+
+.dakwah h4 {
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.dakwah p {
+    font-style: italic;
+}
