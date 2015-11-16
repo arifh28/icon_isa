@@ -24,7 +24,14 @@ p {
     z-index: 1;
 }
 
-.marquee i, .marquee2 i {
+.marquee3 {
+    width: 100%;
+    overflow: hidden;
+    top: 280px;
+    position: absolute;
+    z-index: 1;
+}
+.marquee i, .marquee2 i, .marquee3 i {
     font-size: 50px;
     color: #780000;
 }
@@ -110,7 +117,7 @@ header {
 }
 .dakwah {
     padding: 0;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 0 0;
     height: auto;
 }
 
