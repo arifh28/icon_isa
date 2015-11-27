@@ -8,10 +8,35 @@ h5,
 p {
     font-family: Puritan, Tahoma, Arial;
 }
+
+ol, ul {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #a20000 4px;
+    color: #a20000;
+    text-align: center;
+}
+
+hr:after {
+    content: "\e000";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-family: imm-setengah-abad;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ffffff;
+}
+
 .marquee {
     width: 100%;
     overflow: hidden;
-    top: 130px;
+    top: 80px;
     position: absolute;
     z-index: 1;
 }
@@ -19,7 +44,7 @@ p {
 .marquee2 {
     width: 100%;
     overflow: hidden;
-    top: 200px;
+    top: 150px;
     position: absolute;
     z-index: 1;
 }
@@ -27,7 +52,7 @@ p {
 .marquee3 {
     width: 100%;
     overflow: hidden;
-    top: 280px;
+    top: 215px;
     position: absolute;
     z-index: 1;
 }
@@ -48,6 +73,10 @@ p {
 
 .navbar-header a {
     color: #000000 !important;
+}
+
+.navbar-brand i {
+    font-size: 30px;
 }
 
 .social-icon {
@@ -76,7 +105,7 @@ p {
 
 .fa-twitter:hover  {
     padding: 5px;
-    background:#5BBCEC;
+    background: #00abe3;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -94,11 +123,109 @@ p {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
     color: #000 !important;
-    background-color: #a20000 !important;
+    background-color: #780000 !important;
 }
 header {
     margin: 0;
     padding: 0;
+}
+
+.card__share {
+    float: right;
+    right: 120px;
+    position: relative;
+    margin-top: -28px;
+    z-index: 9;
+}
+
+.card__share > a,
+.card__share > a:hover,
+.card__share > a:focus {
+    text-decoration: none;
+}
+
+.card__social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    width: 160px;
+    transform: translateZ(0);
+    transform: translateX(0px);
+    transition: transform 0.35s ease;
+}
+.card__social--active {
+    visibility: visible;
+    /*z-index: 3;*/
+    transform: translateZ(0);
+    transform: translateX(-48px);
+    transition: transform 0.35s ease;
+}
+
+.share-toggle {
+    z-index: 2;
+}
+
+.share-toggle:before {
+    content: "\f1e0";
+    font-family: 'FontAwesome';
+    color: #3498db;
+    text-decoration: none;
+}
+.share-toggle.share-expanded:before {
+    content: "\f00d";
+    text-decoration: none;
+}
+
+.share-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    outline: 0;
+
+    box-shadow:
+    0 2px 4px rgba(0,0,0, 0.12),
+    0 2px 4px rgba(0,0,0, 0.24);
+}
+
+.share-icon:hover,
+.share-icon:focus {
+    box-shadow:
+    0 3px 6px rgba(0,0,0, 0.12),
+    0 3px 6px rgba(0,0,0, 0.24);
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.facebook {
+    background-color: #0083C9;
+}
+.twitter {
+    background-color: #00abe3;
+}
+.googleplus {
+    background-color: #d3492c;
+}
+
+.facebook,
+.twitter,
+.googleplus {
+    color: #fff;
+}
+
+.facebook:hover,
+.twitter:hover,
+.googleplus:hover {
+    color: #eee;
 }
 .col-marquee {
     width: 100%;
@@ -110,7 +237,7 @@ header {
     position: absolute;
     z-index: 90;
     padding: 0 150px 0 150px;
-    top: 130px;
+    top: 120px;
     color: #000000;
     text-align: center;
     font-family: Puritan, Tahoma, Arial;
@@ -121,8 +248,8 @@ header {
     height: auto;
 }
 
-.dakwah i {
-    font-size: 300px;
+.dakwah span {
+    font-size: 200px;
     color: green;
 }
 
@@ -131,6 +258,14 @@ header {
     letter-spacing: 10px;
     text-transform: uppercase;
     font-weight: bold ;
+    text-align: center;
+}
+
+.dakwah h3 {
+    font-family: Puritan, Tahoma, Arial;
+    letter-spacing: 5px;
+    font-weight: bold ;
+    text-align: center;
 }
 
 .dakwah h4 {
@@ -144,8 +279,64 @@ header {
     font-style: italic;
 }
 
-.berkemajuan h3 {
+.berkemajuan h4 {
     font-family: Puritan, Tahoma, Arial;
     line-height: 30px;
     word-wrap: break-word;
+}
+footer {
+    background-color: #C60000;
+    width: 100%;
+}
+.menu-bawah {
+    padding: 10px 10px;
+    list-style: none;
+}
+.menu-bawah > li {
+    display: inline-block;
+}
+
+.menu-bawah > li > a {
+    text-decoration: none;
+    color: #780000;
+}
+
+.menu-bawah > li > a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-bawah > li + li:before {
+    color: #780000;
+    padding: 0 25px 0 25px;
+    content: "\f142";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.soslink {
+    margin-top: 10px;
+}
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate infinite;
+}
+
+.path-icon {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 15s linear alternate;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
