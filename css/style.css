@@ -76,7 +76,7 @@ hr:after {
 }
 
 .navbar-brand i {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .social-icon {
@@ -339,4 +339,43 @@ footer {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+.icon-isa {
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  height: 40px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
+  margin-bottom: 10px;
+}
+
+.icon-isa:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,.5);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.4);
+}
+
+.icon-isa > .icon-isa-split{
+  background: #c60000;
+  width: 33px;
+  float: left;
+  color: #fff!important;
+  height: 100%;
+  text-align: center;
+}
+
+.icon-isa > .icon-isa-split > i {
+  position:relative;
+  font-size: 18px;
+  top: calc(50% - 9px)!important; /* 50% - 3/4 of icon height */
+}
+
+.icon-isa > .icon-isa-teks{
+  line-height: 19px;
+  padding-top: 11px;
+  padding-left: 45px;
+  padding-right: 20px;
 }
